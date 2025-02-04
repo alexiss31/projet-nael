@@ -1,0 +1,58 @@
+{
+  /////////////////////////////////////////////////
+  // Thèmes & Apparence
+  /////////////////////////////////////////////////
+  "workbench.iconTheme": "material-icon-theme", // Installez l'extension "Material Icon Theme"
+  "workbench.colorTheme": "Default Dark+", // Thème visuel par défaut
+  "window.titleBarStyle": "custom", // Interface plus épurée
+  /////////////////////////////////////////////////
+  // Sauvegarde & Auto-format
+  /////////////////////////////////////////////////
+  "files.autoSave": "afterDelay", // Sauvegarde automatique après 1s
+  "files.autoSaveDelay": 1000,
+  "editor.formatOnSave": true, // Auto-format à la sauvegarde
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always" // Corrige automatiquement les erreurs (ESLint, etc.)
+  },
+  /////////////////////////////////////////////////
+  // Éditeur
+  /////////////////////////////////////////////////
+  "editor.minimap.enabled": false, // Désactive la minimap pour plus d'espace
+  "editor.bracketPairColorization.enabled": true, // Coloration des paires de brackets
+  "editor.smoothScrolling": true, // Défilement fluide
+  "editor.fontSize": 14,
+  "editor.tabSize": 2, // Utilise des espaces au lieu des tabulations
+  "editor.renderWhitespace": "boundary", // Affiche les espaces/retours à la ligne
+  /////////////////////////////////////////////////
+  // Terminal
+  /////////////////////////////////////////////////
+  "terminal.integrated.fontFamily": "Cascadia Code", // Police optimale pour le terminal
+  "terminal.integrated.shellIntegration.enabled": true, // Fonctionnalités avancées
+  "terminal.integrated.defaultProfile.windows": "Command Prompt", // Terminal CMD par défaut
+  /////////////////////////////////////////////////
+  // UX/UI
+  /////////////////////////////////////////////////
+  "explorer.compactFolders": false, // Affiche les dossiers vides normalement
+  "search.exclude": {
+    "**/node_modules": true, // Ignore node_modules dans les recherches
+    "**/dist": true,
+    "**/.git": true
+  },
+  "debug.allowBreakpointsEverywhere": true, // Points d'arrêt dans tous les fichiers JS/TS
+  /////////////////////////////////////////////////
+  // Extensions Recommandées (à installer séparément)
+  /////////////////////////////////////////////////
+  // - Prettier (formatteur de code)
+  // - ESLint (analyse de code JavaScript/TypeScript)
+  // - Python (pour le développement Python)
+  // - GitLens (améliorations Git)
+  // - Bracket Pair Colorizer 2 (coloration des brackets)
+  // - Live Server (rechargement automatique pour le web)
+  /////////////////////////////////////////////////
+  // Paramètres Avancés
+  /////////////////////////////////////////////////
+  "emmet.triggerExpansionOnTab": true, // Auto-complétion HTML/CSS avec Tab
+  "javascript.updateImportsOnFileMove.enabled": "always", // Met à jour les imports quand un fichier est déplacé
+  "typescript.suggest.autoImports": true, // Suggestions d'auto-import
+  "telemetry.telemetryLevel": "off" // Désactive la télémétrie (optionnel)
+}
