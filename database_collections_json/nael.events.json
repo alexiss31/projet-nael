@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "623e6c6e8c9f1b00123456a4"
+  },
+  "title": "Soirée Déguisée",
+  "description": "Une soirée pour se déguiser et s'amuser entre amis",
+  "date": {
+    "$date": "2025-03-31T20:00:00.000Z"
+  },
+  "location": "Paris",
+  "capacity": 100
+},
+{
+  "_id": {
+    "$oid": "623e6c6e8c9f1b00123456a5"
+  },
+  "title": "Atelier de Création de Costumes",
+  "description": "Atelier pratique pour créer votre propre costume",
+  "date": {
+    "$date": "2025-04-15T14:00:00.000Z"
+  },
+  "location": "Lyon",
+  "capacity": 50
+}]

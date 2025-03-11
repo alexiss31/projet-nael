@@ -1,0 +1,78 @@
+[
+  {
+    "userId": {
+      "$oid": "623e6c3e8c9f1b0012345690"
+    },
+    "wishlist": [
+      {
+        "productId": {
+          "$oid": "623e6c4e8c9f1b0012345694"
+        },
+        "isAddedInWishlist": true
+      },
+      {
+        "productId": {
+          "$oid": "623e6c4e8c9f1b0012345695"
+        },
+        "isAddedInWishlist": true
+      }
+    ]
+  },
+  {
+    "userId": {
+      "$oid": "623e6c3e8c9f1b0012345691"
+    },
+    "wishlist": [
+      {
+        "productId": {
+          "$oid": "623e6c4e8c9f1b0012345696"
+        },
+        "isAddedInWishlist": true
+      },
+      {
+        "productId": {
+          "$oid": "623e6c4e8c9f1b0012345697"
+        },
+        "isAddedInWishlist": true
+      }
+    ]
+  },
+  {
+    "userId": {
+      "$oid": "623e6c3e8c9f1b0012345692"
+    },
+    "wishlist": [
+      {
+        "productId": {
+          "$oid": "623e6c4e8c9f1b0012345698"
+        },
+        "isAddedInWishlist": true
+      },
+      {
+        "productId": {
+          "$oid": "623e6c4e8c9f1b0012345699"
+        },
+        "isAddedInWishlist": true
+      }
+    ]
+  },
+  {
+    "userId": {
+      "$oid": "623e6c3e8c9f1b0012345693"
+    },
+    "wishlist": [
+      {
+        "productId": {
+          "$oid": "623e6c4e8c9f1b00123456a0"
+        },
+        "isAddedInWishlist": true
+      },
+      {
+        "productId": {
+          "$oid": "623e6c4e8c9f1b00123456a1"
+        },
+        "isAddedInWishlist": true
+      }
+    ]
+  }
+]

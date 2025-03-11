@@ -37,8 +37,8 @@ const Accessories = () => {
         <div className="max-w-8xl mx-auto px-6 pt-[48px] pb-[48px]">
           <div className="text-center space-y-2">
             <h1 className="font-playfair text-5xl italic text-gold-500 leading-tight">
-              L&apos;Art des
-              <br className="hidden md:block" /> Accessoires Masculins
+              L&apos;Art de
+              <br className="hidden md:block animate-fade-in-down" /> Nos Accessoires
             </h1>
             <p className="text-platinum-400 max-w-2xl mx-auto text-lg">
               Des pièces raffinées pour compléter votre style - découvrez nos

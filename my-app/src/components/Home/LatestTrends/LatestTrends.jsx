@@ -38,7 +38,8 @@ const LatestTrends = () => {
         {blogPosts.map((post) => (
           <div
             key={post.id}
-            className="flex border p-4 bg-white rounded-lg shadow-sm"
+            className="flex border p-4 bg-white rounded-lg shadow-sm transition 
+              hover:shadow-lg hover:scale-105 duration-200 ease-in-out"
           >
             <img
               src={post.image}
@@ -46,10 +47,10 @@ const LatestTrends = () => {
               className="w-36 h-36 object-cover rounded-lg"
             />
             <div className="ml-4 flex flex-col justify-center">
-              <h3 className="text-xl font-semibold">{post.title}</h3>
-              <p className="text-gray-600">{post.subtitle}</p>
+              <h3 className="text-lg md:text-xl font-semibold">{post.title}</h3>
+              <p className="text-sm md:text-base text-gray-600">{post.subtitle}</p>
               <Link to={post.link}>
-                <button className="mt-3 text-blue-600 hover:underline">
+                <button className="mt-3 text-blue-600 hover:underline text-sm md:text-base">
                   Read Article
                 </button>
               </Link>

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import testImage from "../assets/test.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const Costumes = () => {
   const costumes = [
@@ -35,7 +37,7 @@ const Costumes = () => {
       <div className="relative border-b border-charcoal-700">
         <div className="max-w-8xl mx-auto px-6 pt-[48px] pb-[48px]">
           <div className="text-center space-y-2">
-            <h1 className="font-playfair text-5xl italic text-gold-500 leading-tight">
+            <h1 className="font-playfair text-5xl italic text-gold-500 leading-tight animate-fade-in-down">
               L&apos;Art de la
               <br className="hidden md:block" /> Silhouette Masculine
             </h1>
@@ -64,52 +66,44 @@ const Costumes = () => {
           </div>
 
           {/* Grille de produits */}
-          <div className="flex-1 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+          <div className="flex-1 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 relative">
             {costumes.map((costume) => (
               <Link
                 to={`/costumes/${costume.id}`}
                 key={costume.id}
                 className="group relative bg-charcoal-800 border border-charcoal-700 rounded-lg overflow-hidden transition-all duration-300 hover:border-gold-500/30 hover:-translate-y-1"
               >
+                {/* Coeur Wishlist sans group-hover */}
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    // Ajouter la logique wishlist ici
+                  }}
+                  className="absolute flex items-center justify-center top-2 left-2 z-10 p-2 bg-charcoal-900/50 rounded-full backdrop-blur-sm transition-all hover:bg-red-500/20"
+                >
+                  <FontAwesomeIcon
+                    icon={faHeart}
+                    className="w-6 h-6 text-white text-center transition-all duration-300 hover:text-red-500"
+                  />
+                </button>
+
                 {/* Image avec overlay */}
                 <div className="aspect-square overflow-hidden relative">
                   <img
                     src={costume.image}
                     alt={costume.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   />
                   <span className="absolute top-4 right-4 bg-gray-800 text-white text-xs font-bold px-2 py-1 rounded">
                     {costume.tag}
                   </span>
-                  
-                  {/* Coeur Wishlist corrigé */}
-                  <button 
-                    onClick={(e) => {
-                      e.preventDefault();
-                      // Ajouter la logique wishlist ici
-                    }}
-                    className="absolute top-2 left-2 z-10 p-1.5 bg-charcoal-900/50 rounded-full backdrop-blur-sm transition-all
-                               hover:bg-red-500/20 hover:text-red-500"
-                  >
-                    <svg 
-                      className="w-6 h-6 transition-all duration-300"
-                      fill="none" 
-                      stroke="currentColor" 
-                      viewBox="0 0 24 24"
-                    >
-                      <path 
-                        strokeLinecap="round" 
-                        strokeLinejoin="round" 
-                        strokeWidth="2" 
-                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" 
-                      />
-                    </svg>
-                  </button>
                 </div>
 
                 {/* Détails produit */}
                 <div className="p-3 space-y-1">
-                  <h3 className="font-semibold text-sm truncate">{costume.title}</h3>
+                  <h3 className="font-semibold text-sm truncate">
+                    {costume.title}
+                  </h3>
                   <div className="flex justify-between items-center">
                     <span className="text-gold-500 font-playfair text-md">
                       {costume.price}

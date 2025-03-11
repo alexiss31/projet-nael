@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "623e6c3e8c9f1b0012345690"
+  },
+  "email": "alice.dupont@example.com",
+  "password": "$2a$10$XSmP1/PQHJVp.crGbh2neeGOz6wmWwmRUIRzHzRefmiN28LKrIo6a",
+  "name": "Alice Dupont",
+  "role": "user",
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "623e6c3e8c9f1b0012345691"
+  },
+  "email": "bob.martin@example.com",
+  "password": "$2a$10$VFBlnkT3Shvb9QP0PG5BYenchbsc1/VL5sGvbI2QPFsz1BUjp/2k2",
+  "name": "Bob Martin",
+  "role": "user",
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "623e6c3e8c9f1b0012345692"
+  },
+  "email": "caroline.bernard@example.com",
+  "password": "$2a$10$kshPfjl8GhVtVGHHsJrl7ebUG6eWn42wIgtRUW1DT9CFfhvR.9jTe",
+  "name": "Caroline Bernard",
+  "role": "seller",
+  "isVerified": false
+},
+{
+  "_id": {
+    "$oid": "623e6c3e8c9f1b0012345693"
+  },
+  "email": "daniel.leroy@example.com",
+  "password": "$2a$10$dPnqlW5RHH65YnlLKhNlJOyEKBylkor.GYwK2RGCnQlDOrpWXmAHy",
+  "name": "Daniel Leroy",
+  "role": "admin",
+  "isVerified": true
+}]

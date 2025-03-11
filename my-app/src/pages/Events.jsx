@@ -52,7 +52,7 @@ const Events = () => {
         
         <div className="relative h-full flex items-center justify-center text-center">
           <div className="max-w-4xl px-6">
-            <h1 className="font-playfair text-6xl md:text-7xl italic text-gold-500 leading-tight mb-6">
+            <h1 className="font-playfair text-6xl md:text-7xl italic text-gold-500 leading-tight mb-6 animate-fade-in-down">
               L&apos;Expérience <span className="text-platinum-300">Haute Couture</span>
             </h1>
             <p className="text-lg md:text-xl text-platinum-400 max-w-2xl mx-auto mb-8">

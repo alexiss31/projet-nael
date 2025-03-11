@@ -1,7 +1,6 @@
 import { FaStar } from "react-icons/fa"; // Pour les étoiles
 import testImage from "../../../assets/test.jpg";
 
-
 const CustomerReviews = () => {
   const reviews = [
     {
@@ -17,8 +16,7 @@ const CustomerReviews = () => {
       name: "Jane Smith",
       profilePic: testImage,
       stars: 4,
-      review:
-        "Great quality products, the delivery came just as expected.",
+      review: "Great quality products, the delivery came just as expected.",
     },
     {
       id: 3,
@@ -34,7 +32,7 @@ const CustomerReviews = () => {
       profilePic: testImage,
       stars: 5,
       review:
-        "Bought 3 items from this sotre they all so comfy! So happy with my purchase",
+        "Bought 3 items from this store they all so comfy! So happy with my purchase",
     },
     {
       id: 5,
@@ -42,7 +40,7 @@ const CustomerReviews = () => {
       profilePic: testImage,
       stars: 4,
       review:
-        "Fast delivery and items matching the description. Encouraging whoever want to buy on this store.",
+        "Fast delivery and items matching the description. Encouraging whoever wants to buy on this store.",
     },
   ];
 
@@ -59,11 +57,16 @@ const CustomerReviews = () => {
       </div>
 
       {/* Reviews Grid */}
-      <div className="mt-8 grid gap-6 md:grid-cols-5 max-w-screen-2xl mx-auto">
+      <div
+        className="mt-8 grid gap-6 
+          sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 
+          max-w-screen-2xl mx-auto"
+      >
         {reviews.map((review) => (
           <div
             key={review.id}
-            className="flex flex-col p-6 bg-white rounded-lg shadow-sm border"
+            className="flex flex-col p-6 bg-white rounded-lg shadow-sm border transition 
+              hover:shadow-lg hover:scale-105 duration-200"
           >
             {/* Profile and Name */}
             <div className="flex items-center justify-between">

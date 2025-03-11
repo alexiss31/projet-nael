@@ -1,0 +1,106 @@
+[
+  {
+    "_id": {
+      "$oid": "623e6c4e8c9f1b0012345694"
+    },
+    "name": "Costume de Super-Héros",
+    "price": 59.99,
+    "stock": 10,
+    "category": "623e6c1e8c9f1b0012345678",
+    "imageUrl": "https://example.com/images/superhero.jpg",
+    "description": "Costume inspiré des super-héros, idéal pour vos soirées costumées",
+    "discount": 10,
+    "isAddedInWishlist": false
+  },
+  {
+    "_id": {
+      "$oid": "623e6c4e8c9f1b0012345695"
+    },
+    "name": "Costume d'Halloween",
+    "price": 49.99,
+    "stock": 15,
+    "category": "623e6c1e8c9f1b0012345678",
+    "imageUrl": "https://example.com/images/halloween.jpg",
+    "description": "Costume effrayant pour une soirée d'Halloween réussie",
+    "discount": 0,
+    "isAddedInWishlist": false
+  },
+  {
+    "_id": {
+      "$oid": "623e6c4e8c9f1b0012345696"
+    },
+    "name": "Costume Historique",
+    "price": 69.99,
+    "stock": 5,
+    "category": "623e6c1e8c9f1b0012345678",
+    "imageUrl": "https://example.com/images/historique.jpg",
+    "description": "Reconstituez une époque révolue avec ce costume d'époque",
+    "discount": 5,
+    "isAddedInWishlist": false
+  },
+  {
+    "_id": {
+      "$oid": "623e6c4e8c9f1b0012345697"
+    },
+    "name": "Costume Fantaisie",
+    "price": 39.99,
+    "stock": 20,
+    "category": "623e6c1e8c9f1b0012345678",
+    "imageUrl": "https://example.com/images/fantaisie.jpg",
+    "description": "Un costume coloré pour laisser libre cours à votre imagination",
+    "discount": 15,
+    "isAddedInWishlist": false
+  },
+  {
+    "_id": {
+      "$oid": "623e6c4e8c9f1b0012345698"
+    },
+    "name": "Chapeau Élégant",
+    "price": 19.99,
+    "stock": 25,
+    "category": "623e6c1e8c9f1b0012345679",
+    "imageUrl": "https://example.com/images/chapeau.jpg",
+    "description": "Chapeau chic pour parfaire un costume",
+    "discount": 0,
+    "isAddedInWishlist": false
+  },
+  {
+    "_id": {
+      "$oid": "623e6c4e8c9f1b0012345699"
+    },
+    "name": "Bijou Vintage",
+    "price": 29.99,
+    "stock": 30,
+    "category": "623e6c1e8c9f1b0012345679",
+    "imageUrl": "https://example.com/images/bijou.jpg",
+    "description": "Bijou raffiné pour apporter une touche d'élégance",
+    "discount": 0,
+    "isAddedInWishlist": false
+  },
+  {
+    "_id": {
+      "$oid": "623e6c4e8c9f1b00123456a0"
+    },
+    "name": "Ceinture en Cuir",
+    "price": 24.99,
+    "stock": 12,
+    "category": "623e6c1e8c9f1b0012345679",
+    "imageUrl": "https://example.com/images/ceinture.jpg",
+    "description": "Ceinture en cuir véritable, accessoire indispensable",
+    "discount": 5,
+    "isAddedInWishlist": false
+  },
+  {
+    "_id": {
+      "$oid": "623e6c4e8c9f1b00123456a1"
+    },
+    "name": "Chaussures Stylées",
+    "price": 34.99,
+    "stock": 18,
+    "category": "623e6c1e8c9f1b0012345679",
+    "imageUrl": "https://example.com/images/chaussures.jpg",
+    "description": "Chaussures modernes pour compléter votre look",
+    "discount": 0,
+    "isAddedInWishlist": false
+  }
+]

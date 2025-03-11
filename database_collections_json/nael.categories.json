@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "623e6c1e8c9f1b0012345678"
+  },
+  "name": "costumes",
+  "description": "Vêtements pour incarner des personnages ou styles variés"
+},
+{
+  "_id": {
+    "$oid": "623e6c1e8c9f1b0012345679"
+  },
+  "name": "accessoires",
+  "description": "Articles complémentaires pour compléter un costume"
+}]

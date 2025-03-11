@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "623e6c5e8c9f1b00123456a2"
+  },
+  "userId": "623e6c3e8c9f1b0012345690",
+  "products": [
+    {
+      "productId": "623e6c4e8c9f1b0012345694",
+      "quantity": 1
+    },
+    {
+      "productId": "623e6c4e8c9f1b0012345698",
+      "quantity": 2
+    }
+  ],
+  "totalPrice": 99.97,
+  "paymentStatus": "payé",
+  "status": "Expédié",
+  "deliveryAddress_street": "123 Rue de la Paix",
+  "deliveryAddress_city": "Paris",
+  "deliveryAddress_postalCode": 75001,
+  "deliveryAddress_country": "France",
+  "createdAt": {
+    "$date": "2025-02-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "623e6c5e8c9f1b00123456a3"
+  },
+  "userId": "623e6c3e8c9f1b0012345691",
+  "products": [
+    {
+      "productId": "623e6c4e8c9f1b0012345695",
+      "quantity": 1
+    },
+    {
+      "productId": "623e6c4e8c9f1b0012345697",
+      "quantity": 1
+    },
+    {
+      "productId": "623e6c4e8c9f1b00123456a0",
+      "quantity": 1
+    }
+  ],
+  "totalPrice": 114.97,
+  "paymentStatus": "en attente",
+  "status": "En attente",
+  "deliveryAddress_street": "45 Avenue des Champs",
+  "deliveryAddress_city": "Paris",
+  "deliveryAddress_postalCode": 75008,
+  "deliveryAddress_country": "France",
+  "createdAt": {
+    "$date": "2025-02-02T12:30:00.000Z"
+  }
+}]

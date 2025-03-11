@@ -64,6 +64,7 @@ const Navbar = () => {
                 </Link>
               ))}
             </div>
+            
 
             {/* Actions Droite */}
             <div className="flex items-center space-x-6">

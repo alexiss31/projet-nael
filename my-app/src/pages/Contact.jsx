@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="relative border-b border-charcoal-700">
         <div className="max-w-8xl mx-auto px-6 pt-[120px] pb-[80px]">
           <div className="relative z-10 text-center space-y-4">
-            <h1 className="font-playfair text-5xl md:text-6xl italic text-gold-500 leading-tight">
+            <h1 className="font-playfair text-5xl md:text-6xl italic text-gold-500 leading-tight animate-fade-in-down">
               Une Expérience
               <br className="hidden md:block" /> Sur Mesure
             </h1>
